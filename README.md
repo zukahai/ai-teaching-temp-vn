@@ -1,77 +1,77 @@
-# � Documentation Template
+# 📚 Mẫu Tài Liệu
 
-A modern and flexible documentation template built with VitePress. Perfect for creating beautiful documentation for any type of project.
+Một mẫu tài liệu hiện đại và linh hoạt được xây dựng với VitePress. Hoàn hảo để tạo tài liệu đẹp mắt cho bất kỳ loại dự án nào.
 
-## � Features
+## ✨ Tính Năng
 
-- **Clean Design**: Professional and modern appearance
-- **Responsive Layout**: Works perfectly on all devices
-- **Easy Customization**: Simple to adapt for your needs
-- **Fast Performance**: Built with VitePress for optimal speed
-- **Search Functionality**: Built-in search capabilities
-- **Markdown Support**: Write content in familiar Markdown syntax
+- **Thiết Kế Sạch Sẽ**: Giao diện chuyên nghiệp và hiện đại
+- **Bố Cục Responsive**: Hoạt động hoàn hảo trên mọi thiết bị
+- **Dễ Tùy Chỉnh**: Đơn giản để thích ứng với nhu cầu của bạn
+- **Hiệu Suất Nhanh**: Được xây dựng với VitePress để có tốc độ tối ưu
+- **Chức Năng Tìm Kiếm**: Khả năng tìm kiếm tích hợp sẵn
+- **Hỗ Trợ Markdown**: Viết nội dung bằng cú pháp Markdown quen thuộc
 
-## 🚀 Quick Start
+## 🚀 Bắt Đầu Nhanh
 
-1. **Clone the repository**
+1. **Sao chép repository**
    ```bash
    git clone https://github.com/yourusername/documentation-template.git
    cd documentation-template
    ```
 
-2. **Install dependencies**
+2. **Cài đặt dependencies**
    ```bash
    npm install
    ```
 
-3. **Start development server**
+3. **Khởi động development server**
    ```bash
    npm run docs:dev
    ```
 
-4. **Build for production**
+4. **Build cho production**
    ```bash
    npm run docs:build
    ```
 
-## 📁 Project Structure
+## 📁 Cấu Trúc Dự Án
 
 ```
 docs/
-│── index.md                  # Homepage
-│── introduction/             # Getting started section
-│   ├── intro.md             # Introduction and overview
-│── appendix/                # Additional resources
-│   ├── cheatsheet.md        # Quick reference
-│   ├── faq.md               # Frequently asked questions
-│   └── resources.md         # Links and resources
+│── index.md                  # Trang chủ
+│── introduction/             # Phần bắt đầu
+│   ├── intro.md             # Giới thiệu và tổng quan
+│── appendix/                # Tài nguyên bổ sung
+│   ├── cheatsheet.md        # Tham khảo nhanh
+│   ├── faq.md               # Câu hỏi thường gặp
+│   └── resources.md         # Liên kết và tài nguyên
 ```
 
-## 🎨 Customization
+## 🎨 Tùy Chỉnh
 
-1. **Update site configuration** in `docs/.vitepress/config.js`
-2. **Modify the homepage** in `docs/index.md`
-3. **Add your content** in the respective markdown files
-4. **Customize styling** by editing the CSS files
+1. **Cập nhật cấu hình trang web** trong `docs/.vitepress/config.js`
+2. **Chỉnh sửa trang chủ** trong `docs/index.md`
+3. **Thêm nội dung của bạn** vào các file markdown tương ứng
+4. **Tùy chỉnh styling** bằng cách chỉnh sửa các file CSS
 
-## 📝 Writing Content
+## 📝 Viết Nội Dung
 
-All content is written in Markdown format. You can:
-- Add new pages by creating `.md` files
-- Organize content in folders
-- Use VitePress features like custom containers
-- Include diagrams with Mermaid
+Tất cả nội dung được viết bằng định dạng Markdown. Bạn có thể:
+- Thêm trang mới bằng cách tạo file `.md`
+- Tổ chức nội dung trong các thư mục
+- Sử dụng các tính năng VitePress như custom containers
+- Bao gồm biểu đồ với Mermaid
 
-## �️ Built With
+## 🛠️ Được Xây Dựng Với
 
-- [VitePress](https://vitepress.dev/) - Static site generator
-- [Vue 3](https://vuejs.org/) - Frontend framework
-- [Markdown](https://www.markdownguide.org/) - Content format
+- [VitePress](https://vitepress.dev/) - Trình tạo trang web tĩnh
+- [Vue 3](https://vuejs.org/) - Framework frontend
+- [Markdown](https://www.markdownguide.org/) - Định dạng nội dung
 
-## � License
+## 📜 Giấy Phép
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Dự án này được cấp phép theo Giấy phép MIT - xem file [LICENSE](LICENSE) để biết chi tiết.
 
-## 🤝 Contributing
+## 🤝 Đóng Góp
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Chúng tôi hoan nghênh các đóng góp! Hãy thoải mái gửi Pull Request.

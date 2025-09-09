@@ -1,18 +1,18 @@
-# Cheat Sheet
+# Bảng Tham Khảo Nhanh
 
-## Binary Search Algorithm Demo
+## Demo Thuật Toán Tìm Kiếm Nhị Phân
 
 ```mermaid
 flowchart TD
-    A[Start: Array sorted, target value] --> B[Set left = 0, right = array.length - 1]
+    A[Bắt đầu: Mảng đã sắp xếp, giá trị mục tiêu] --> B[Đặt left = 0, right = array.length - 1]
     B --> C{left <= right?}
-    C -->|No| D[Target not found, return -1]
-    C -->|Yes| E[Calculate mid = left + (right - left) / 2]
+    C -->|Không| D[Không tìm thấy mục tiêu, trả về -1]
+    C -->|Có| E[Tính mid = left + (right - left) / 2]
     E --> F{array[mid] == target?}
-    F -->|Yes| G[Found! Return mid index]
-    F -->|No| H{array[mid] < target?}
-    H -->|Yes| I[Set left = mid + 1]
-    H -->|No| J[Set right = mid - 1]
+    F -->|Có| G[Tìm thấy! Trả về chỉ số mid]
+    F -->|Không| H{array[mid] < target?}
+    H -->|Có| I[Đặt left = mid + 1]
+    H -->|Không| J[Đặt right = mid - 1]
     I --> C
     J --> C
     
@@ -21,16 +21,16 @@ flowchart TD
     style D fill:#ffcdd2
 ```
 
-## Example Walkthrough
+## Ví Dụ Minh Họa
 
 ```mermaid
 graph TD
-    subgraph "Step 1: Initial"
-        A1["Array: [1, 3, 5, 7, 9, 11, 13]<br/>Target: 7<br/>left=0, right=6, mid=3"]
+    subgraph "Bước 1: Khởi tạo"
+        A1["Mảng: [1, 3, 5, 7, 9, 11, 13]<br/>Mục tiêu: 7<br/>left=0, right=6, mid=3"]
     end
     
-    subgraph "Step 2: Compare"
-        B1["array[3] = 7<br/>7 == 7 ✓<br/>Found at index 3!"]
+    subgraph "Bước 2: So sánh"
+        B1["array[3] = 7<br/>7 == 7 ✓<br/>Tìm thấy tại chỉ số 3!"]
     end
     
     A1 --> B1
@@ -39,4 +39,4 @@ graph TD
     style B1 fill:#c8e6c9
 ```
 
-Cheat sheet content...
+Nội dung bảng tham khảo nhanh...

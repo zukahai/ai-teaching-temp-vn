@@ -2,7 +2,7 @@
   "name": "documentation-template",
   "version": "1.0.0",
   "type": "module",
-  "description": "Modern documentation template for any project",
+  "description": "Mẫu tài liệu hiện đại cho mọi dự án",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -11,11 +11,11 @@
     "deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist -b gh-pages"
   },
   "keywords": [
-    "documentation",
-    "template",
+    "tài liệu",
+    "mẫu",
     "vitepress",
     "markdown",
-    "website",
+    "trang web",
     "docs"
   ],
   "author": "zukahai",

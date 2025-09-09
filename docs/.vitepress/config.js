@@ -2,9 +2,9 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid({
   base: '/documentation-template/',
-  title: 'Project Documentation',
-  description: 'Modern documentation template for any project',
-  lang: 'en-US',
+  title: 'Tài Liệu Dự Án',
+  description: 'Mẫu tài liệu hiện đại cho mọi dự án',
+  lang: 'vi-VN',
   ignoreDeadLinks: true,
   
   mermaid: {
@@ -16,21 +16,21 @@ export default withMermaid({
       provider: 'local',
       options: {
         locales: {
-          'en-US': {
+          'vi-VN': {
             translations: {
               button: {
-                buttonText: 'Search',
-                buttonAriaLabel: 'Search docs'
+                buttonText: 'Tìm kiếm',
+                buttonAriaLabel: 'Tìm kiếm tài liệu'
               },
               modal: {
-                displayDetails: 'Display details',
-                resetButtonTitle: 'Clear search',
-                backButtonTitle: 'Close search',
-                noResultsText: 'No results found',
+                displayDetails: 'Hiển thị chi tiết',
+                resetButtonTitle: 'Xóa tìm kiếm',
+                backButtonTitle: 'Đóng tìm kiếm',
+                noResultsText: 'Không tìm thấy kết quả',
                 footer: {
-                  selectText: 'to select',
-                  navigateText: 'to navigate',
-                  closeText: 'to close'
+                  selectText: 'để chọn',
+                  navigateText: 'để điều hướng',
+                  closeText: 'để đóng'
                 }
               }
             }
@@ -39,27 +39,27 @@ export default withMermaid({
       }
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/introduction/intro' },
-      { text: 'Resources', link: '/appendix/resources' },
+      { text: 'Trang Chủ', link: '/' },
+      { text: 'Bắt Đầu', link: '/introduction/intro' },
+      { text: 'Tài Nguyên', link: '/appendix/resources' },
       { text: 'GitHub', link: 'https://github.com/yourusername/your-project' }
     ],
 
     sidebar: [
       {
-        text: '📋 Introduction',
+        text: '📋 Giới Thiệu',
         collapsed: false,
         items: [
-          { text: 'Getting Started', link: '/introduction/intro' },
+          { text: 'Bắt Đầu', link: '/introduction/intro' },
         ]
       },
       {
-        text: '� Appendix',
+        text: '📚 Phụ Lục',
         collapsed: true,
         items: [
-          { text: 'Quick Reference', link: '/appendix/cheatsheet' },
-          { text: 'FAQ', link: '/appendix/faq' },
-          { text: 'Resources', link: '/appendix/resources' }
+          { text: 'Tham Khảo Nhanh', link: '/appendix/cheatsheet' },
+          { text: 'Câu Hỏi Thường Gặp', link: '/appendix/faq' },
+          { text: 'Tài Nguyên', link: '/appendix/resources' }
         ]
       }
     ],
@@ -72,17 +72,17 @@ export default withMermaid({
     ],
 
     footer: {
-      message: 'Modern documentation template',
-      copyright: 'Copyright © 2024'
+      message: 'Mẫu tài liệu hiện đại',
+      copyright: 'Bản quyền © 2024'
     },
 
     editLink: {
       pattern: 'https://github.com/yourusername/your-project/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      text: 'Chỉnh sửa trang này trên GitHub'
     },
 
     lastUpdated: {
-      text: 'Last updated',
+      text: 'Cập nhật lần cuối',
       formatOptions: {
         dateStyle: 'short',
         timeStyle: 'short'
