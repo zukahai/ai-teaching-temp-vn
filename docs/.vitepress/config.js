@@ -42,7 +42,7 @@ export default withMermaid({
       { text: 'Trang Chủ', link: '/' },
       { text: 'Bắt Đầu', link: '/introduction/intro' },
       { text: 'Tài Nguyên', link: '/appendix/resources' },
-      { text: 'GitHub', link: 'https://github.com/yourusername/your-project' }
+  
     ],
 
     sidebar: [
@@ -51,6 +51,15 @@ export default withMermaid({
         collapsed: false,
         items: [
           { text: 'Bắt Đầu', link: '/introduction/intro' },
+        ]
+      },
+      {
+        text: '📋 Chương 1: ABC',
+        collapsed: false,
+        items: [
+          { text: 'Bắt Đầu', link: '/introduction/intro' },
+          { text: 'Bài 1', link: '/introduction/chuong1/bai1' },
+          { text: 'Bài 2', link: '/introduction/chuong1/bai2' },
         ]
       },
       {
@@ -66,8 +75,8 @@ export default withMermaid({
 
     socialLinks: [
       { 
-        icon: 'github', 
-        link: 'https://github.com/yourusername/your-project' 
+        icon: 'facebook', 
+        link: 'https://facebook.com/yourusername/your-project' 
       }
     ],
 
