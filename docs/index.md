@@ -2,72 +2,72 @@
 layout: home
 
 hero:
-  name: "Project Documentation"
-  text: "Modern Documentation Hub"
-  tagline: "Create beautiful documentation for any project"
+  name: "Tài Liệu Dự Án"
+  text: "Trung Tâm Tài Liệu Hiện Đại"
+  tagline: "Tạo tài liệu đẹp mắt cho mọi dự án"
   image:
     src: /logo.png
-    alt: Project Documentation
+    alt: Tài Liệu Dự Án
   actions:
     - theme: brand
-      text: Get Started
+      text: Bắt Đầu
       link: /introduction/intro
     - theme: alt
-      text: View on GitHub
+      text: Xem trên GitHub
       link: https://github.com/yourusername/your-project
 
 features:
   - icon: 📋
-    title: Professional Layout
-    details: Clean and organized documentation structure
+    title: Bố Cục Chuyên Nghiệp
+    details: Cấu trúc tài liệu sạch sẽ và có tổ chức
   - icon: 🚀
-    title: Quick Setup
-    details: Get your documentation site running in minutes
-  - icon: �
-    title: Comprehensive
-    details: All the essential sections for complete documentation
+    title: Thiết Lập Nhanh
+    details: Chạy trang web tài liệu của bạn trong vài phút
+  - icon: 📚
+    title: Toàn Diện
+    details: Tất cả các phần thiết yếu cho tài liệu hoàn chỉnh
   - icon: 🎨
-    title: Customizable
-    details: Easily adapt the design to match your brand
+    title: Có Thể Tùy Chỉnh
+    details: Dễ dàng điều chỉnh thiết kế để phù hợp với thương hiệu của bạn
   - icon: 📱
-    title: Mobile Friendly
-    details: Perfect viewing experience on all devices
+    title: Thân Thiện Với Mobile
+    details: Trải nghiệm xem hoàn hảo trên mọi thiết bị
   - icon: 🔍
-    title: Searchable
-    details: Built-in search functionality for easy navigation
+    title: Có Thể Tìm Kiếm
+    details: Chức năng tìm kiếm tích hợp để điều hướng dễ dàng
 ---
 
-## � Welcome to Your Documentation Hub
+## 📚 Chào Mừng Đến Với Trung Tâm Tài Liệu Của Bạn
 
-This is a versatile documentation template designed to help you create beautiful, professional documentation for any type of project.
+Đây là một mẫu tài liệu linh hoạt được thiết kế để giúp bạn tạo ra tài liệu đẹp mắt, chuyên nghiệp cho bất kỳ loại dự án nào.
 
-### ✨ Key Features
+### ✨ Tính Năng Chính
 
-- **Modern Design**: Clean, professional appearance that impresses visitors
-- **Flexible Structure**: Adaptable layout for any type of documentation
-- **Interactive Elements**: Engaging components to enhance user experience
-- **Performance Optimized**: Fast loading times and smooth navigation
-- **SEO Friendly**: Built with search engine optimization in mind
-- **Easy Maintenance**: Simple to update and maintain your content
+- **Thiết Kế Hiện Đại**: Giao diện sạch sẽ, chuyên nghiệp gây ấn tượng với người xem
+- **Cấu Trúc Linh Hoạt**: Bố cục có thể thích ứng cho bất kỳ loại tài liệu nào
+- **Yếu Tố Tương Tác**: Các thành phần hấp dẫn để nâng cao trải nghiệm người dùng
+- **Tối Ưu Hiệu Suất**: Thời gian tải nhanh và điều hướng mượt mà
+- **Thân Thiện SEO**: Được xây dựng với tối ưu hóa công cụ tìm kiếm
+- **Dễ Bảo Trì**: Đơn giản để cập nhật và duy trì nội dung của bạn
 
-### �️ Documentation Structure
+### 🗂️ Cấu Trúc Tài Liệu
 
-1. **📋 Introduction** - Overview and getting started guide
-2. **📚 Appendix** - Additional resources and reference materials
+1. **📋 Giới Thiệu** - Tổng quan và hướng dẫn bắt đầu
+2. **📚 Phụ Lục** - Tài nguyên bổ sung và tài liệu tham khảo
 
-### 🎯 Perfect For
+### 🎯 Hoàn Hảo Cho
 
-- **Software Projects**: APIs, libraries, and application documentation
-- **Business Documentation**: Processes, guidelines, and procedures
-- **Educational Content**: Tutorials, courses, and learning materials
-- **Product Manuals**: User guides and technical specifications
-- **Team Knowledge**: Internal wikis and shared documentation
-- **Portfolio Projects**: Showcase your work with professional docs
+- **Dự Án Phần Mềm**: API, thư viện và tài liệu ứng dụng
+- **Tài Liệu Doanh Nghiệp**: Quy trình, hướng dẫn và thủ tục
+- **Nội Dung Giáo Dục**: Hướng dẫn, khóa học và tài liệu học tập
+- **Hướng Dẫn Sản Phẩm**: Hướng dẫn người dùng và thông số kỹ thuật
+- **Kiến Thức Nhóm**: Wiki nội bộ và tài liệu chia sẻ
+- **Dự Án Portfolio**: Trình bày công việc của bạn với tài liệu chuyên nghiệp
 
-### 🚀 Get Started
+### 🚀 Bắt Đầu
 
-Ready to create amazing documentation? Begin with the [Introduction](/introduction/intro) to explore all the possibilities!
+Sẵn sàng tạo tài liệu tuyệt vời? Bắt đầu với [Giới Thiệu](/introduction/intro) để khám phá tất cả các khả năng!
 
 ---
 
-*"Great documentation bridges the gap between complex ideas and clear understanding."*
+*"Tài liệu tuyệt vời là cầu nối giữa những ý tưởng phức tạp và sự hiểu biết rõ ràng."*
